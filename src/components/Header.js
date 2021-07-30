@@ -8,16 +8,16 @@ const Header = () => {
                 <h1 id="logo">Wisdomly</h1>
                 <ul>
                     <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/">Principal</Link>
                     </li>
                     <li>
-                        <Link to="/books">Books</Link>
+                        <Link to="/books">Libros</Link>
                     </li>
                     <li>
-                        <Link to="/cart">Cart</Link>
+                        <Link to="/cart">Carrito</Link>
                     </li>
                     <li>
-                        <Link to="/checkout">Checkout</Link>
+                        <Link to="/checkout">Verificar</Link>
                     </li>
                 </ul>
             </nav>
