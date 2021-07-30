@@ -9,12 +9,12 @@ const Cart = () => {
   const { cart, total, increaseAmount, decreaseAmount } = useContext(CartContext);
 
   if (!cart.length) {
-    return <h3>Empty Cart</h3>
+    return <h3>Carro vacio</h3>
   }
   return (
     <section className="cart">
       <header>
-        <h2>My Cart</h2>
+        <h2>Mi carrito</h2>
       </header>
       <div className="cart-wrapper">
         {cart.map(({ id, title, price, image, amount }) => (
@@ -38,7 +38,7 @@ const Cart = () => {
         <h3>Total: $ {total}</h3>
       </div>
       <div>
-        <button className="btn" onClick={() => history.push("/checkout")}>Checkout</button>
+        <button className="btn" onClick={() => history.push("/checkout")}>Verificar</button>
       </div>
     </section>
   );

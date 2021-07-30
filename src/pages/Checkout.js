@@ -12,7 +12,7 @@ const Checkout = () => {
             <AmplifyAuthenticator>
                 <Elements stripe={stripePromise}>
                     <section>
-                        <h2>Time to Checkout?</h2>
+                        <h2>¿Hora de pagar?</h2>
                         <CheckoutForm />
                     </section>
                 </Elements>

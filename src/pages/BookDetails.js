@@ -13,7 +13,7 @@ const BookDetails = () => {
     return book.id === id;
   });
   if (!book) {
-    return <h3>Loading...</h3>;
+    return <h3>Cargando...</h3>;
   }
 
   const { image: url, title, description, author, price } = book;
@@ -27,7 +27,7 @@ const BookDetails = () => {
         <h2>{title}</h2>
         <p>{description}</p>
         <h3>{author}</h3>
-        <h4>Price - $ {price}</h4>
+        <h4>Precio - $ {price}</h4>
         <button
           className="btn"
           onClick={() => {
@@ -35,7 +35,7 @@ const BookDetails = () => {
             history.push("/cart");
           }}
         >
-          Add to Cart
+          Añadir al carrito
         </button>
       </div>
     </section>

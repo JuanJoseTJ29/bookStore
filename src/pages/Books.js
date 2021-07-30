@@ -7,7 +7,7 @@ const Books = () => {
     const { books } = useContext(BookContext);
 
     if (!books.length) {
-        return <h3>No Books Available</h3>
+        return <h3>No hay libros disponibles</h3>
     }
 
     return (
@@ -17,7 +17,7 @@ const Books = () => {
                     <div className="book-image">
                         <img src={image} alt={title} />
                     </div>
-                    <Link to={`books/${id}`} className="btn book-link">details</Link>
+                    <Link to={`books/${id}`} className="btn book-link">Detalles</Link>
                 </article>
             ))}
         </section>

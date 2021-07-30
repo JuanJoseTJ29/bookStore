@@ -53,7 +53,7 @@ const Admin = () => {
             <AmplifyAuthenticator>
                 <section>
                     <header className="form-header">
-                        <h3>Add New Book</h3>
+                        <h3>Agregar libro nuevo</h3>
                         <AmplifySignOut></AmplifySignOut>
                     </header>
                     <form className="form-wrapper" onSubmit={handleSubmit}>
@@ -66,7 +66,7 @@ const Admin = () => {
                         </div>
                         <div className="form-fields">
                             <div className="title-form">
-                                <p><label htmlFor="title">Title</label></p>
+                                <p><label htmlFor="title">Título</label></p>
                                 <p><input
                                     name="email"
                                     type="title"
@@ -76,7 +76,7 @@ const Admin = () => {
                                 /></p>
                             </div>
                             <div className="description-form">
-                                <p><label htmlFor="description">Description</label></p>
+                                <p><label htmlFor="description">Descripción</label></p>
                                 <p><textarea
                                     name="description"
                                     type="text"
@@ -87,7 +87,7 @@ const Admin = () => {
                                 /></p>
                             </div>
                             <div className="author-form">
-                                <p><label htmlFor="author">Author</label></p>
+                                <p><label htmlFor="author">Autor</label></p>
                                 <p><input
                                     name="author"
                                     type="text"
@@ -97,7 +97,7 @@ const Admin = () => {
                                 /></p>
                             </div>
                             <div className="price-form">
-                                <p><label htmlFor="price">Price ($)</label>
+                                <p><label htmlFor="price">Precio ($)</label>
                                     <input
                                         name="price"
                                         type="text"
@@ -107,7 +107,7 @@ const Admin = () => {
                                     /></p>
                             </div>
                             <div className="featured-form">
-                                <p><label>Featured?</label>
+                                <p><label>Destacados?</label>
                                     <input type="checkbox"
                                         className="featured-checkbox"
                                         checked={bookDetails.featured}
@@ -116,7 +116,7 @@ const Admin = () => {
                                 </p>
                             </div>
                             <div className="submit-form">
-                                <button className="btn" type="submit">Submit</button>
+                                <button className="btn" type="submit">Entregar</button>
                             </div>
                         </div>
                     </form>
